@@ -1,3 +1,7 @@
 <h2 id='title'>Welcome to Ember.js</h2>
 
+<h3>Popover time!</h3>
+{{#popover-with-yield name="Button Name"}}
+	<h5 {{action 'whoa'}}>Hi I'm a popover </h5>
+{{/popover-with-yield}}
 {{outlet}}
